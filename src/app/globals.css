@@ -19,9 +19,18 @@
   --color-black: #202224;
   --color-primary: #4880FF;
   --color-primary-100: #5A8CFF;
-  --color-gray: #D5D5D5;
+  --color-gray: #f1f4f9;
   --color-gray-100: #D8D8D8;
+  --color-gray-200: #D5D5D5;
+  
 
   
 }
 
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+ color: --var(--color-black);
+  
+}
