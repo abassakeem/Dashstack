@@ -88,9 +88,9 @@ export function CreateAccrountForm({
             </div>
             <div className="mt-4 text-center text-black/65 text-sm">
               Already have an account?{" "}
-              <a href="#" className="underline cursor-pointer text-primary underline-offset-4">
+              <Link href="/login" className="underline cursor-pointer text-primary underline-offset-4">
                  login
-              </a>
+              </Link>
             </div>
           </form>
         </CardContent>

@@ -11,7 +11,7 @@ import {Checkbox, checkbox} from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
-import { Check } from "lucide-react";
+
 
 export function LoginForm({
   className,
@@ -76,9 +76,9 @@ export function LoginForm({
             </div>
             <div className="mt-4 text-center text-black/65 text-sm">
               Don&apos;t have an account?{" "}
-              <a href="#" className="underline cursor-pointer text-primary underline-offset-4">
+              <Link href="#" className="underline cursor-pointer text-primary underline-offset-4">
                 Create account
-              </a>
+              </Link>
             </div>
           </form>
         </CardContent>
